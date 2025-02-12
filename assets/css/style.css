@@ -129,3 +129,16 @@ main {
 .right-column small {
     color: gray;
 }
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #17a2b8;
+    color: white;
+}
+
+footer a img {
+    margin: 0 10px;
+
+}
