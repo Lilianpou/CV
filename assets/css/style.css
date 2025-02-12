@@ -32,6 +32,10 @@ header section {
     width: 30%;
 }
 
+#moi{
+    cursor: zoom-in;
+}
+
 #div2{
     width: 70%;
     justify-content: center;
@@ -47,6 +51,8 @@ address small{
     display: flex;
     width: 35%;
     justify-content: center;
+    text-decoration: none;
+    font-style: normal;
 }
 
 address a{ 
@@ -133,7 +139,7 @@ main {
 }
 
 .right-column hr {
-    border: 1px solid #17a2b8;
+    border: 1px solid #17abb3;
     margin-bottom: 10px;
 }
 
@@ -145,6 +151,8 @@ main {
 
 .right-column div {
     margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .right-column div:hover {
@@ -155,8 +163,14 @@ main {
 
 .right-column span {
     font-weight: bold;
-    display: block;
+    display: flex;
+    width:50%;
 }
+
+.span3{
+    justify-content: flex-end;
+    color: #17abb3;
+} 
 
 .right-column small {
     color: gray;
@@ -172,5 +186,8 @@ footer {
 
 footer a img {
     margin: 0 10px;
+}
 
+footer a img:hover{
+    opacity: 70%;
 }
