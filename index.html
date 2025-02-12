@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -11,38 +11,42 @@
 <body>
     <header>
         <section>
-            <img src="./assets/img/image-un-homme.png" alt="une image d'un homme">
-            <h1>Le J</h1>
-            <strong>Développeur Web et Web Mobile</strong>
-            <address>
-                <small><img src="./assets/img/enveloppe-de-courrier-electronique.png"
-                        alt="enveloppe de courrier electronique" height="16"><a
-                        href="mailto:une.adresse@mail.fr">une.adresse@mail.fr</a></small>
-                <small><img src="./assets/img/maison.png" alt="une maison" height="16"><a
-                        href="55 Rue du Faubourg Saint-Honoré, 75008 Paris">Mon adresse</a></small>
-                <small><img src="./assets/img/telephone.png" alt="un télèphone" height="16"><a
-                        href="tel:+00.00.00.00.00">00 00 00
-                        00 00</a></small>
-                <small><img src="./assets/img/auto.png" alt="une voiture" height="16">Permie B</small>
-            </address>
+            <div id="img1">
+                <img id="moi" src="./assets/img/moi.jpg" alt="une image d'un homme">
+            </div>
+            <div>
+                <h1>Le J</h1>
+                <strong>Développeur Web et Web Mobile</strong>
+                <address>
+                    <small><img src="./assets/img/enveloppe-de-courrier-electronique.png"
+                            alt="enveloppe de courrier electronique" height="16"><a
+                            href="mailto:une.adresse@mail.fr">une.adresse@mail.fr</a></small>
+                    <small><img src="./assets/img/maison.png" alt="une maison" height="16"><a
+                            href="55 Rue du Faubourg Saint-Honoré, 75008 Paris">Mon adresse</a></small>
+                    <small><img src="./assets/img/telephone.png" alt="un télèphone" height="16"><a
+                            href="tel:+00.00.00.00.00">00 00 00
+                            00 00</a></small>
+                    <small><img src="./assets/img/auto.png" alt="une voiture" height="16">Permie B</small>
+                </address>
+            </div>
         </section>
     </header>
     <main>
-        <div>
+        <div class="left-column">
             <section>
                 <h2>Compétences</h2>
                 <hr>
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>Javascript</span>
-                <span>PHP</span>
+                <span>HTML</span><br>
+                <span>CSS</span><br>
+                <span>Javascript</span><br>
+                <span>PHP</span><br>
             </section>
             <section>
                 <h2>Langues</h2>
                 <hr>
-                <span>Français</span><span>Langue maternelle</span>
-                <span>Anglais</span><span>Professionnel</span>
-                <span>Allemand</span><span>Notion</span>
+                <span>Français</span><span>Langue maternelle</span><br>
+                <span>Anglais</span><span>Professionnel</span><br>
+                <span>Allemand</span><span>Notion</span><br>
             </section>
             <section>
                 <h2>Qualité</h2>
@@ -64,7 +68,7 @@
                 </ul>
             </section>
         </div>
-        <div>
+        <div class="right-column">
             <section>
                 <h2>Profil</h2>
                 <hr>
@@ -135,9 +139,9 @@
     </main>
     <footer>
         <section>
-            <img src="./assets/img/logo-linkedin.png" alt="logo linkedin" height="16">
-            <img src="./assets/img/github.png" alt="logo github" height="16">
-            <img src="./assets/img/instagram.png" alt="logo instagram" height="16">
+            <a href="#"><img src="./assets/img/logo-linkedin.png" alt="logo linkedin" height="16"></a>
+            <a href="#"><img src="./assets/img/github.png" alt="logo github" height="16"></a>
+            <a href="#"><img src="./assets/img/instagram.png" alt="logo instagram" height="16"></a>
             <small>Mise a jour : <time datetime="2025/02/10"></time>10/02/2025</small>
         </section>
     </footer>
