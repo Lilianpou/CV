@@ -23,6 +23,38 @@ header {
     padding: 20px;
 }
 
+header section {
+    display: flex;
+    align-items: center;
+}
+
+#img1{
+    width: 30%;
+}
+
+#div2{
+    width: 70%;
+    justify-content: center;
+}
+
+address{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+address small{
+    display: flex;
+    width: 35%;
+    justify-content: center;
+}
+
+address a{ 
+    color: #ffffff;
+    text-decoration: none;
+    font-style: normal;
+}
+
 header #moi {
     width: 120px;
     height: 120px;
